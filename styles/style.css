@@ -20,7 +20,7 @@
 /* banner styles */
 
 .banner {
-    background-image: url(/assests/images/banner/banner3.png);
+    background-image: url(../assests/images/banner/banner3.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -134,7 +134,7 @@
 .contact {
     margin: 130px 250px;
     text-align: center;
-    background-image: url(/assests/images/watch.png), url(/assests/images/gradient1.png);
+    background-image: url(../assests/images/watch.png), url(../assests/images/gradient1.png);
     background-repeat: no-repeat;
     background-position: center left;
 }
