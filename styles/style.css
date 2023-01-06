@@ -217,3 +217,13 @@
 .footer-left-img {
     margin-right: 10px;
 }
+
+::-webkit-input-placeholder {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color: #F3F3F3;
+
+    :-moz-placeholder {
+        text-align: center;
+    }
