@@ -1,0 +1,47 @@
+/* style for everything */
+* {
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.btn-primary {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 23px;
+    color: #005FAC;
+    padding: 21px;
+    border-radius: 5px;
+    width: 160px;
+    height: 64px;
+    border: none;
+}
+
+/* banner styles */
+
+.banner {
+    background-image: url(/assests/images/banner/banner3.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    padding: 216px 230px 216px 0;
+    text-align: right;
+    padding-left: 750px;
+
+}
+
+.banner-title {
+    font-weight: 700;
+    font-size: 65px;
+    line-height: 76px;
+    color: #FFFFFF;
+    margin-bottom: 25px;
+
+}
+
+.banner-description {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #FFFFFF;
+    margin-bottom: 32px;
+}
