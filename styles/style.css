@@ -189,6 +189,7 @@ a{
     background-image: linear-gradient(to right, #005FAC 0%, rgba(0, 95, 172, 0) 100%), url(../assests/images/watch.png);
     border-radius: 15px;
     height: 100%;
+    background-size: cover;
     background-repeat: no-repeat;
     background-position: center left;
 }
