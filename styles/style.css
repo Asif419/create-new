@@ -46,13 +46,58 @@
     margin-bottom: 32px;
 }
 
+/* achievements styles */
+
+.achievements-container {
+    display: flex;
+    align-items: center;
+    margin: 130px 250px;
+    border: #444343 solid 5px;
+    padding: 30px;
+    border-radius: 5ch;
+}
+
+.achievements-container:hover {
+    background-color: #dde7f0 ;
+}
+
+.achievements-left-list-point {
+    display: flex;
+    align-items: center;   
+}
+
+.achievements-left-title {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    color: #151414;
+    padding-bottom: 25px;
+}
+
+.achievements-left-description {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #444343;
+    padding-bottom: 15px;
+    max-width: 70%;
+}
+
+.achievements-left-list-point {
+    margin-bottom: 10px
+}
+
+.achievements-left-list-point img {
+    margin-right: 10px;
+}
+
+
 /* failur styles */
 
 .failures-container {
     display: flex;
     align-items: center;
     margin: 130px 250px;
-
 }
 
 .failure-right {
@@ -80,7 +125,6 @@
 .failure-right-list-point {
     display: flex;
     align-items: center;
-
 }
 
 .failure-right-list .failure-right-list-point {
@@ -166,7 +210,7 @@
 .footer-left-title,
 .footer-right-subscribe {
     font-weight: 700;
-    font-size: 45px;
+    font-size: 40px;
     line-height: 53px;
     color: #F8F8F8;
     width: 50%;
@@ -218,12 +262,19 @@
     margin-right: 10px;
 }
 
+#email{
+    background: transparent;
+    color: white;
+    font-size: 20px;
+}
+
 ::-webkit-input-placeholder {
     font-weight: 400;
     font-size: 18px;
     line-height: 21px;
     color: #F3F3F3;
+}
 
-    :-moz-placeholder {
+:-moz-placeholder {
         text-align: center;
     }
