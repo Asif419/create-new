@@ -4,17 +4,22 @@
     font-family: 'Open Sans', sans-serif;
 }
 
+a{
+    text-decoration: none;
+}
+
 
 .btn-primary {
     font-weight: 600;
     font-size: 20px;
     line-height: 23px;
     color: #005FAC;
-    padding: 21px;
+    padding: 18px;
     border-radius: 5px;
     width: 160px;
     height: 64px;
     border: none;
+    background-color: #FFFFFF;
 }
 
 /* banner styles */
@@ -57,9 +62,11 @@
     border-radius: 5ch;
 }
 
-.achievements-container:hover {
+/* tried to check how it looks if hover provided */
+/* .achievements-container:hover {
     background-color: #c4d7e7 ;
-}
+
+} */
 
 .achievements-left-list-point {
     display: flex;
@@ -87,8 +94,9 @@
     margin-bottom: 10px
 }
 
-.achievements-left-list-point img {
+.achievements-left-list-point i {
     margin-right: 10px;
+    align-items: center;
 }
 
 
@@ -178,7 +186,9 @@
 .contact {
     margin: 130px 250px;
     text-align: center;
-    background-image: url(../assests/images/watch.png), url(../assests/images/gradient1.png);
+    background-image: linear-gradient(to right, #005FAC 0%, rgba(0, 95, 172, 0) 100%), url(../assests/images/watch.png);
+    border-radius: 15px;
+    height: 100%;
     background-repeat: no-repeat;
     background-position: center left;
 }
@@ -267,14 +277,4 @@
     color: white;
     font-size: 20px;
 }
-
-::-webkit-input-placeholder {
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 21px;
-    color: #F3F3F3;
-}
-
-:-moz-placeholder {
-        text-align: center;
-    }
+    
